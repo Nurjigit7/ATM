@@ -5,17 +5,11 @@ public class Main {
         AccountServiceImpl accountService=new AccountServiceImpl();
         accountService.singUp("Nurjigit","Umarov");
         accountService.singUp("Pysbek","Sharapov");
+        System.out.println("hello");
 
        while (true){
            accountService.singIn("Nurjigit","Umarov");
        }
-
-
-
-
-
-
-
 
 
 
